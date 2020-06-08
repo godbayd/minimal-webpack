@@ -4,6 +4,7 @@ const lrp = require('webpack-livereload-plugin')
 
 module.exports = {
     mode: 'development',
+    devtool: 'source-map',
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
